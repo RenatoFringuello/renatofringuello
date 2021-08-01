@@ -1,0 +1,18 @@
+:root{
+  --stColor : #222f;
+  --ndColor : #dddf;
+  --rdColor : #FF5526;
+  --rdColor2 : #A32704;
+  --opacity : 0.7;
+  --paddingLR : 8vw;
+}
+.imgs img, .skillSec img{
+  -webkit-filter:hue-rotate(45deg) brightness(2);
+}
+.icon{
+  -webkit-filter:invert(100%);
+}
+body *::selection{
+  background:var(--rdColor);
+  color:var(--ndColor);
+}
