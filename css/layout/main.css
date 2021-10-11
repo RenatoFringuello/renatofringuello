@@ -1,0 +1,7 @@
+body{
+    display: flex;
+}
+.main{
+    width:95vw;
+    position: relative;
+}

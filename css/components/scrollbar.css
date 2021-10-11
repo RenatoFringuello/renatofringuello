@@ -23,7 +23,7 @@
     box-shadow: none;
 }
 ::-webkit-scrollbar-track {
-    background: #444;
+    background: var(--ndColor2);
 }
 
 /*MOZILLA*/

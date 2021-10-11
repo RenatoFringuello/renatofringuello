@@ -1,18 +1,30 @@
 :root{
   --stColor : #222f;
   --ndColor : #dddf;
+  --ndColor2 : #ffff; /*scrollbar track*/
   --rdColor : #FF5526;
   --rdColor2 : #A32704;
   --opacity : 0.7;
   --paddingLR : 8vw;
 }
-.imgs img, .skillSec img{
-  -webkit-filter:hue-rotate(45deg) brightness(2);
+body, ::selection{
+  background:var(--rdColor);
+  color:var(--ndColor);
 }
+div img::selection, .link::selection, button h4::selection{
+  background:none;
+  color: var(--stColor);
+}
+
 .icon{
   -webkit-filter:invert(100%);
 }
-body *::selection{
-  background:var(--rdColor);
-  color:var(--ndColor);
+
+.skillSec img{
+  -webkit-filter:hue-rotate(45deg) brightness(2);
+  -webkit-filter:drop-shadow(2px 2px 3px #000f);
+}
+
+#java{
+  -webkit-filter:invert(70%) hue-rotate(0deg) brightness(1);
 }

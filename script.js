@@ -142,6 +142,11 @@ $(document).ready(function() {
 
 //window LOAD
 $(window).on("load", function(){
+  var d = new Date();
+                              /*summer*/                                                                                    /*autumn - winter - spring*/
+  if((d.getMonth() >= 5 && d.getMonth() < 9 && d.getHours() < 20 && d.getHours() >= 8) || ((d.getMonth() >= 9 || d.getMonth() < 5) && d.getHours() < 18 && d.getHours() >= 6)){
+    $("input").attr('checked','checked');
+  } 
   setTheme();
   setTimeout(function(){
     $(".loader-wrapper").fadeOut('slow');

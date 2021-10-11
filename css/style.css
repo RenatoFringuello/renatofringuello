@@ -13,5 +13,5 @@ html,body{
   z-index:-2;/*just for the underline*/
 }
 section:not(#proj){
-  padding: 0 var(--paddingLR);
+  padding: 0 var(--paddingLR) 0 0;
 }

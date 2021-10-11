@@ -33,15 +33,6 @@
   .bgBlend:hover{
     -webkit-opacity:0;-ms-opacity:0;-moz-opacity:0;opacity:0;
   }
-  .skillSec{
-    width:100%;
-    display:flex;
-    flex-wrap:wrap;
-  }
-  .skillSec img{
-    height:20px;
-    margin:10px;
-  }
   .clearfix:after {
     visibility: hidden;
     display: block;

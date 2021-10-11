@@ -29,6 +29,16 @@
       top:-50%;
       width:calc(100% - 6rem);
     }
+
+    .title{
+      visibility: visible;
+    }
+    aside{
+      display: hidden;
+    }
+    .main,header{
+      width: 100%;
+    }
   
     #home{
       flex-direction:column;

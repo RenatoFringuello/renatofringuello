@@ -13,6 +13,7 @@ button{
   background: -webkit-linear-gradient(0deg, var(--rdColor), var(--rdColor2));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 700;
 }
 .borderbutton:hover button{
   background:-webkit-linear-gradient(0deg, var(--rdColor), var(--rdColor2));
