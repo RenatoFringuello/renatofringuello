@@ -1,5 +1,5 @@
 header{
-    background:var(--ndColor);
+    background:-webkit-linear-gradient(var(--ndColor), #0000);
     display:flex;
     justify-content:space-between;
     padding:1rem var(--paddingLR) 1rem 10px;

@@ -1,13 +1,13 @@
 .skillSec{
-    width:100%;
-    display:flex;
-    flex-wrap:wrap;
-  }
-  .skillSec img{
-    height:20px;
-    margin:10px;
-  }
-
-  #java{
-      height:80px;
-  }
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+}
+.skillSec img{
+  height:25px;
+  margin:10px;
+}
+.skillSec img.php{
+  height: 20px;
+}

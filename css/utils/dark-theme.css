@@ -18,9 +18,5 @@ div img::selection, .link::selection, button h4::selection{
 }
 
 .skillSec img{
-  -webkit-filter:hue-rotate(166deg) brightness(2.5);
-}
-
-#java{
-  -webkit-filter:hue-rotate(105deg) brightness(2.5);
+  -webkit-filter:drop-shadow(2px 2px 3px #000f) hue-rotate(166deg) brightness(2.5);
 }
