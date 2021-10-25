@@ -2,6 +2,9 @@
     /*h4{
       font-size: clamp(0.8rem, 0.2750rem + 2.3333vw, 1.5rem);
     }*/
+    body{
+      padding:0;
+    }
     header{
       height:auto;
       align-items:flex-start;
@@ -40,16 +43,6 @@
       padding: 0 var(--paddingLR);
     }
 
-    .title{
-      visibility: visible;
-    }
-    .title .line{
-      width: 75%;
-    }
-    .title #ndLine{
-      width: 55%;
-    }
-
     .walkthrough{
       display: none;
     }
@@ -59,13 +52,28 @@
 
     /*typography*/
     h1{
-      font-size: 3.4rem;
+      font-size: 2.4rem;
     }
     h2{
-      font-size: 2.0rem;
+      font-size: 1.8rem;
+    }
+    h3{
+      font-size: 1.2rem;
+    }
+    h4{
+      font-size:1rem;
     }
 
+    #brand .lt{
+      width: clamp(2.5rem, 4vw, 5rem);
+    }
+    .lt{
+      width:5rem;
+    }
+
+    /*home*/
     #home{
+      min-height: 100vh;
       flex-direction:column;
       padding: auto;
     }
@@ -77,9 +85,29 @@
       height: clamp(22rem, 14.5000rem + 33.3333vw, 32rem);
     }
     .buttonSec{
-      justify-content:space-evenly;
+      justify-content:space-between;
     }
     .borderbutton{
       margin-right:0;
+    }
+    button{
+      width:130px;
+    }
+
+    /*proj*/
+    #proj{
+      min-height: 100vh;
+    }
+
+    /*title*/
+    .title{
+      visibility: visible;
+      margin-bottom:1rem;
+    }
+    .title .line{
+      width: 75%;
+    }
+    .title #ndLine{
+      width: 55%;
     }
   }

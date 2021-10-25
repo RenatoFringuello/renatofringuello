@@ -80,6 +80,9 @@ $(document).ready(function() {
           "background":"var(--ndColor)"
         }
       );
+      //set html unscrollable
+      $("html").css("overflow","hidden");
+      
       $("header").slideDown("slow", function(){
         $(".navLinks, .socialSec").css("display","flex");
       });
@@ -107,6 +110,8 @@ $(document).ready(function() {
             "background" : "-webkit-linear-gradient(var(--ndColor), #0000)"
           }
         );
+        //set html to scrollable
+        $("html").css("overflow","visible");
         $(".navLinks, .socialSec").css("display","none");
       });
       isOpen = 0;

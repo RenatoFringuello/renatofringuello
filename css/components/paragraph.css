@@ -4,6 +4,7 @@
 .textTitle{
     margin-bottom:1rem;
     text-transform:capitalize;
+    font-weight: 700;
 }
 .textSubtitle{
     width:max-content;
