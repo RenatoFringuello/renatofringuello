@@ -61,7 +61,7 @@ $(document).ready(function() {
   function openNav(){
     if(!isOpen){
       //navBtn animation
-      $("#b").slideUp('fast',function(){
+      $("#b").slideUp(10,function(){
         $(".navBtn .line").css(
           {
             "position":"absolute",
@@ -89,7 +89,7 @@ $(document).ready(function() {
       //navBtn animation
       $("#a,#c").css("transform","rotate(0deg)");
       setTimeout(function(){
-        $("#b").slideDown('fast',function(){
+        $("#b").slideDown(10,function(){
           $(".navBtn .line").css(
             {
               "position":"static",
@@ -100,11 +100,11 @@ $(document).ready(function() {
         });
       },500);
       $("header").slideUp("fast",function(){
-        $(this).css(
+        $("header").css(
           {
             "height":"auto",
             "display":"flex",
-            "background":"-webkit-linear-gradient(var(--ndColor), #0000);"
+            "background" : "-webkit-linear-gradient(var(--ndColor), #0000)"
           }
         );
         $(".navLinks, .socialSec").css("display","none");
