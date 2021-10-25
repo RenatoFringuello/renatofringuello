@@ -1,7 +1,8 @@
 body{
     display: flex;
+    padding-right:var(--paddingLR);
 }
 .main{
-    width:92vw;
+    width:calc(100% - var(--paddingLR));
     position: relative;
 }

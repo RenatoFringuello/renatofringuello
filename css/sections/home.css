@@ -20,7 +20,7 @@
     top: calc(100% + 3px);
     background:-webkit-linear-gradient(45deg, var(--rdColor), var(--rdColor2));
     animation: underline 5s ease-in-out infinite;
-    z-index:2;
+    z-index:1;
   }
 
   .textSec, .buttonSec{

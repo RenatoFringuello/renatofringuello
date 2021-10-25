@@ -21,5 +21,5 @@ div img::selection, .link::selection, button h4::selection{
 }
 
 .skillSec img{
-  -webkit-filter:drop-shadow(2px 2px 3px #000f) hue-rotate(45deg) brightness(2);
+  -webkit-filter:drop-shadow(2px 2px 3px #0006) hue-rotate(45deg) brightness(2);
 }
