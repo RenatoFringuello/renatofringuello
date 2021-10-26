@@ -6,9 +6,7 @@
     align-items:center;
     cursor: pointer;
   }
-  .logo-container .loader-container{
-    cursor:pointer;
-  }
+  
   .logo{
     font-weight:700;
     margin-left:30px;

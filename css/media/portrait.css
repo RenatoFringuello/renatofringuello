@@ -98,6 +98,10 @@
     #proj{
       min-height: 100vh;
     }
+    .slide-container{
+      margin-top:45px;
+    }
+
 
     /*title*/
     .title{
