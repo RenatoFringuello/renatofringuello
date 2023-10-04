@@ -60,7 +60,7 @@
 </div>
 </td>
 </tr>
-<tr><td valign="top" width="50%">
+<tr><td valign="top" width="50%" colspan="2">
 
 <div align="center">
 
