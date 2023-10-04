@@ -1,7 +1,3 @@
-<div align="center">
-<img src="" align="center" style="width: 100%" />
-</div>  
-  
 
 ### <div align="center">👨‍💻 Ciao! I'm Renato, Jr Full-Stack Web Developer 👨‍💻</div>  
   
